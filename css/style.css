@@ -120,4 +120,15 @@ body {
 .header-section .header-heading span {
   color: #d5be8b;
 }
+
+.best-selling-products-section {
+  position: relative;
+  padding: 60px 5vw;
+}
+
+.best-selling-products-section .section-title {
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
 /*# sourceMappingURL=style.css.map */

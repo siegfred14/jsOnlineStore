@@ -101,3 +101,15 @@ body {
     }
   }
 }
+
+// best selling product
+.best-selling-products-section {
+  position: relative;
+  padding: 60px 5vw;
+
+  .section-title {
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}
