@@ -186,4 +186,53 @@ body {
   border-color: #190c05;
   background: #190c05;
 }
+
+.mid-section {
+  width: 100%;
+  height: 800px;
+  padding: 40px 5vw;
+}
+
+.section-item-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 20px;
+}
+
+.section-item-container .section-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.section-item-container .section-info {
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  display: block;
+  margin-left: auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.section-item-container .section-info .title {
+  font-size: 60px;
+  line-height: 100px;
+}
+
+.section-item-container .section-info .title span {
+  color: #d5be8b;
+}
+
+.section-item-container .section-info .info {
+  font-family: "lato", sans-serif;
+  font-size: 25px;
+  line-height: 45px;
+  margin-top: 30px;
+  opacity: 0.5;
+}
 /*# sourceMappingURL=style.css.map */
