@@ -14,5 +14,24 @@ body {
   height: 100vh;
   background: url(../img/header.png);
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-section .header-heading {
+  font-size: 100px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.header-section .header-heading span {
+  color: #d5be8b;
 }
 /*# sourceMappingURL=style.css.map */
