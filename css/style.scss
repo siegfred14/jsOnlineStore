@@ -331,3 +331,15 @@ body {
     }
   }
 }
+
+.end-section {
+  padding: 50px 5vw;
+
+  .section-item-container {
+    height: 800px;
+
+    .section-info {
+      margin: 0;
+    }
+  }
+}
