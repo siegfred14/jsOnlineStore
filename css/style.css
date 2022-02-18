@@ -26,6 +26,19 @@ body {
   transition: 0.5s;
 }
 
+.navbar.newBg {
+  background-color: #fff;
+}
+
+.navbar.newBg .links-container .link-item .link {
+  color: #000;
+  opacity: 0.5;
+}
+
+.navbar.newBg .links-container .link-item .link:hover, .navbar.newBg .links-container .link-item .link.active {
+  opacity: 1;
+}
+
 .navbar .links-container {
   display: -webkit-box;
   display: -ms-flexbox;

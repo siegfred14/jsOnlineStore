@@ -20,6 +20,22 @@ body {
   z-index: 9;
   transition: 0.5s;
 
+  &.newBg {
+    background-color: #fff;
+    .links-container {
+      .link-item {
+        .link {
+          color: #000;
+          opacity: 0.5;
+          &:hover,
+          &.active {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+
   .links-container {
     display: flex;
     align-items: center;
