@@ -291,4 +291,105 @@ body {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
 }
+
+.review-section {
+  padding: 50px 5vw;
+}
+
+.review-section .section-title .span {
+  color: #d5be8b;
+}
+
+.review-section .review-container {
+  margin: 50px;
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.review-section .review-container .review-card {
+  width: 250px;
+  height: auto;
+  font-family: "lato", sans-serif;
+}
+
+.review-section .review-container .review-card .user-dp {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.review-section .review-container .review-card .user-dp img {
+  width: 100px;
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.review-section .review-container .review-card .user-dp:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+}
+
+.review-section .review-container .review-card .user-dp:after {
+  content: attr(data-rating);
+  position: absolute;
+  bottom: 0;
+  right: -20px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  background: #d5be8b;
+}
+
+.review-section .review-container .review-card .review-title {
+  font-size: 20px;
+  line-height: 25px;
+  margin: 30px 0;
+  text-transform: capitalize;
+}
+
+.review-section .review-container .review-card .review {
+  opacity: 0.7;
+}
+
+.end-section {
+  padding: 50px 5vw;
+}
+
+.end-section .section-item-container {
+  height: 800px;
+}
+
+.end-section .section-item-container .section-info {
+  margin: 0;
+}
+
+.end-section .section-item-container .section-info .title {
+  font-size: 100px;
+  line-height: 150px;
+  margin: 50px;
+}
+
+footer {
+  font-family: "lato", sans-serif;
+  color: #d5be8b;
+  background: #190c05;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+}
 /*# sourceMappingURL=style.css.map */
