@@ -50,4 +50,23 @@
   font-size: 60px;
   margin: 30px 0;
 }
+
+.product-section .product-detail .btn-container .product-btn {
+  padding: 15px 40px;
+  border: none;
+  color: #fff;
+  outline: none;
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.product-section .product-detail .btn-container .buy-btn {
+  background-color: #d5be8b;
+}
+
+.product-section .product-detail .btn-container .cart-btn {
+  background-color: #190c05;
+}
 /*# sourceMappingURL=product.css.map */
