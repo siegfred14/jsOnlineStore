@@ -20,6 +20,13 @@
         transform: translate(-50%, -50%);
         color: #fff;
         text-transform: capitalize;
+        font-size: 50px;
+        opacity: 0;
+        transition: 0.5s;
+      }
+
+      &:hover .product-price {
+        opacity: 1;
       }
     }
   }
