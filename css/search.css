@@ -5,12 +5,12 @@
   padding: 60px 5vw;
 }
 
-.product-container {
+.search-listing .product-container {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
-.product-card {
+.search-listing .product-container .product-card {
   width: 30%;
   margin: 20px 0;
   border: 10px solid #f2f2f2 !important;
