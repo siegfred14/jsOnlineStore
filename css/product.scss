@@ -10,4 +10,37 @@
     height: 600px;
     object-fit: cover;
   }
+
+  .product-detail {
+    .product-title {
+      font-size: 60px;
+    }
+    .product-des {
+      margin: 30px 0;
+      font-family: "lato", sans-serif;
+      opacity: 0.5;
+      font-size: 20px;
+      line-height: 30px;
+    }
+    .ratings {
+      display: flex;
+
+      .star {
+        width: 30px;
+        height: 30px;
+      }
+      .rating-count {
+        font-family: "lato", sans-serif;
+        opacity: 0.4;
+        font-size: 14px;
+        line-height: 40px;
+        margin-left: 20px;
+      }
+    }
+
+    .price {
+      font-size: 60px;
+      margin: 30px 0;
+    }
+  }
 }
