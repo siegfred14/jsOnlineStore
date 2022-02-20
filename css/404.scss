@@ -7,4 +7,28 @@
   justify-content: center;
   align-items: center;
   color: #fff;
+
+  .content {
+    .error {
+      text-align: center;
+      font-size: 70px;
+      margin-bottom: 30px;
+    }
+    .sub-line {
+      font-size: 25px;
+      text-align: center;
+      font-family: "lato", sans-serif;
+      text-transform: capitalize;
+
+      a {
+        color: #fff;
+        transition: 0.5s;
+
+        &:hover {
+          color: #d5be8b;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
 }
