@@ -69,4 +69,10 @@
 .product-section .product-detail .btn-container .cart-btn {
   background-color: #190c05;
 }
+
+.detail-des,
+.review-section {
+  width: 100%;
+  padding: 100px 5vw 0;
+}
 /*# sourceMappingURL=product.css.map */
