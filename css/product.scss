@@ -107,3 +107,8 @@
 .review-field:focus {
   border-color: #d5be8b;
 }
+
+.review-headline:focus::placeholder,
+.review-field:focus::placeholder {
+  color: #d5be8b;
+}

@@ -123,4 +123,24 @@
 .review-field:focus {
   border-color: #d5be8b;
 }
+
+.review-headline:focus::-webkit-input-placeholder,
+.review-field:focus::-webkit-input-placeholder {
+  color: #d5be8b;
+}
+
+.review-headline:focus:-ms-input-placeholder,
+.review-field:focus:-ms-input-placeholder {
+  color: #d5be8b;
+}
+
+.review-headline:focus::-ms-input-placeholder,
+.review-field:focus::-ms-input-placeholder {
+  color: #d5be8b;
+}
+
+.review-headline:focus::placeholder,
+.review-field:focus::placeholder {
+  color: #d5be8b;
+}
 /*# sourceMappingURL=product.css.map */
