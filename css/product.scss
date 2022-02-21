@@ -102,3 +102,8 @@
   resize: none;
   padding: 0 10px;
 }
+
+.review-headline:focus,
+.review-field:focus {
+  border-color: #d5be8b;
+}
