@@ -94,5 +94,28 @@
   font-family: "lato", sans-serif;
   color: #000;
   outline: none;
+  text-transform: capitalize;
+}
+
+::-webkit-input-placeholder {
+  color: #c9c9c9;
+}
+
+:-ms-input-placeholder {
+  color: #c9c9c9;
+}
+
+::-ms-input-placeholder {
+  color: #c9c9c9;
+}
+
+::placeholder {
+  color: #c9c9c9;
+}
+
+.review-field {
+  height: 160px;
+  resize: none;
+  padding: 0 10px;
 }
 /*# sourceMappingURL=product.css.map */
