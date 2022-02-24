@@ -11,3 +11,9 @@ ratingStarInput.map((star, index) =>{
         }
     })
 })
+
+let inView = document.querySelectorAll('.in-view');
+inView.addEventListener('click', ()=>{
+    alert("Page Under Construction! Check back Later");
+})
+// add navbar links tomorrow
